@@ -1,0 +1,19 @@
+#boxControl {
+    position: fixed;
+    z-index: 999999;
+    bottom: 1%;
+    left: 40%
+}
+
+.boxPlayMB5.xepBaiDoiThu {
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.btn-info {
+    background: #003a7f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px
+}

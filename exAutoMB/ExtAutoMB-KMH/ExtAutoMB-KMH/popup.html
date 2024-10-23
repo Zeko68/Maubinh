@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap5.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="bootstrap5.bundle.min.js"></script>
+  <script src="a076d05399.js"></script>
+  <script src="jquery-3.6.1.min.js"></script>
+  <style>
+	#btnTaoban,#btnStartFindHost,#btnVaoBanKhac {
+		margin-top: 5px;
+	}
+	#btnPaste {
+		border-radius: 5px;
+		padding: 10px 10px;
+		background-color: #990000;
+		color: white;
+	}
+   </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="boxController">
+      <div class="text-center">
+          <h6>Vào sảnh game trước khi chạy!</h6>
+      </div> 
+  </div>
+      <div class="input-group mb-1">
+        <select class="form-select" id="chon_game">
+          <option value="1">TLDL</option>
+          <option value="11">TLMN</option>
+          <option value="2">Sâm</option>
+          <option value="8">Phỏm</option>
+          <option value="4">Binh</option>
+          <option value="18">Catte</option>
+        </select>
+        <select class="form-select" id="bet_money">
+          <option value="100">100</option>
+          <option value="500">500</option>
+          <option value="1000">1K</option>
+          <option value="2000">2K</option>
+          <option value="5000">5K</option>
+          <option value="10000">10K</option>
+          <option value="20000">20K</option>
+          <option value="50000">50K</option>
+          <option value="100000">100K</option>
+          <option value="500000">500K</option>
+		  <option value="1000000">1M</option>
+        </select>
+		<select class="form-select" id="so_nguoi">
+          <option value="2">Solo</option>
+          <option value="4">4 Người</option>
+          <option value="5">5 Người</option>
+          <option value="6">6 Người</option>
+        </select>
+      </div>
+    <div>
+      <button type="button" id="btnSapbai" class="ms-0 btn btn-info btn-sm mx-2 d-none">Sắp bài</button>
+    </div>
+
+    <div>
+      <div class="input-group mb-1">
+        <span class="input-group-text">
+          <i class="fas fa-user-alt"></i>
+        </span>
+        <input type="text" class="form-control" placeholder="Số Bàn" id="host_acc_id">
+		<button type="button" id="btnPaste" class="btn btn-info btn-sm mx-2">Paste</button>
+      </div>
+      <div class="d-flex justify-content-center mb-3">
+		<button type="button" id="btnTaoban" class="btn btn-danger btn-sm mx-2">Tạo Bàn</button>
+        <button type="button" id="btnStartFindHost" class="btn btn-primary btn-sm mx-2">Room HIT</button>
+		<button type="button" id="btnVaoBanKhac" class="btn btn-warning btn-sm mx-2">B52,RIK</button>
+      </div>
+    </div>
+
+</body>
+<script src="background.js"></script>
+</html>

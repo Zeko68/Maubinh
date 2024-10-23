@@ -1,0 +1,208 @@
+.card-class, .f12Card {
+    width: 63px;
+    height: 80px;
+    background-image: url(https://b52-9979.online/card.png);
+    background-size: 567px 480px;
+    position: absolute
+}
+
+.roomId, .username {
+    background: #000;
+    border-radius: 15px;
+    font-size: 1.5rem
+}
+
+#box, #boxSoi {
+    position: fixed;
+    top: 4%;
+    z-index: 9999;
+    height: 125px;
+    zoom: 80%;
+    padding: 0;
+    /*color: #fff;*/
+    /*overflow-x: hidden;*/
+    overflow-y: hidden;
+    /*justify-content: center;*/
+    /*display: flex;*/
+    /*gap: 20px*/
+}
+
+#boxSoi {
+    display: block;
+    top: 150px;
+    height: auto;
+    zoom: 80%;
+}
+
+.boxSoiNum{
+    height: 125px;
+    margin-top: 50px;
+    overflow-y: hidden;
+}
+
+#boxSoiNum4{
+    background: grey;
+}
+
+#boxSoiNum3{
+    background: darkslategrey;
+}
+
+#boxSoiNum2{
+    background: dimgrey;
+}
+
+#boxShow {
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: center
+}
+
+#boxbkg0 {
+    display: block;
+    position: relative;
+    width: 180px;
+    height: 80px
+}
+
+#boxbkg1, #boxbkg2, #boxbkg3, #boxbkg4, #boxbkg5, .roomId {
+    display: block;
+    position: relative;
+    width: 95px;
+    height: 80px
+}
+
+#boxMb00, #boxMb10, #boxMb20, #boxMb30, #boxMb40,
+#boxMbSoi200, #boxMbSoi210, #boxMbSoi220, #boxMbSoi230, #boxMbSoi240,
+#boxMbSoi300, #boxMbSoi310, #boxMbSoi320, #boxMbSoi330, #boxMbSoi340,
+#boxMbSoi400, #boxMbSoi410, #boxMbSoi420, #boxMbSoi430, #boxMbSoi440
+{
+    display: block;
+    position: relative;
+    width: 95px;
+    height: 80px;
+    z-index: 10001
+}
+
+#boxMb01, #boxMb11, #boxMb21, #boxMb31, #boxMb41,
+#boxMbSoi201, #boxMbSoi211, #boxMbSoi321, #boxMbSoi231, #boxMbSoi241,
+#boxMbSoi301, #boxMbSoi311, #boxMbSoi321, #boxMbSoi331, #boxMbSoi341,
+#boxMbSoi401, #boxMbSoi411, #boxMbSoi421, #boxMbSoi431, #boxMbSoi441
+{
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 80px;
+    z-index: 10002;
+    top: 40px
+}
+
+#boxMb02, #boxMb12, #boxMb22, #boxMb32, #boxMb42,
+#boxMbSoi202, #boxMbSoi212, #boxMbSoi222, #boxMbSoi232, #boxMbSoi242,
+#boxMbSoi302, #boxMbSoi312, #boxMbSoi322, #boxMbSoi332, #boxMbSoi342,
+#boxMbSoi402, #boxMbSoi412, #boxMbSoi422, #boxMbSoi432, #boxMbSoi442
+{
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 80px;
+    z-index: 10002;
+    top: 80px
+}
+
+#boxPlayMB0, #boxPlayMB1, #boxPlayMB2, #boxPlayMB3, #boxPlayMB4, #boxPlayMB5,
+#boxPlayMBSoi20, #boxPlayMBSoi21, #boxPlayMBSoi22, #boxPlayMBSoi23, #boxPlayMBSoi24, #boxPlayMBSoi25,
+#boxPlayMBSoi30, #boxPlayMBSoi31, #boxPlayMBSoi32, #boxPlayMBSoi33, #boxPlayMBSoi34, #boxPlayMBSoi35,
+#boxPlayMBSoi40, #boxPlayMBSoi41, #boxPlayMBSoi42, #boxPlayMBSoi43, #boxPlayMBSoi44, #boxPlayMBSoi45
+{
+    display: block;
+    position: relative;
+    width: 200px;
+    margin: 0 0 0 80px;
+    z-index: 9999;
+    float: left;
+}
+
+#btnSapBai {
+    background: #a10a0a;
+    color: #ffe200;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.username {
+    position: absolute;
+    bottom: -30px;
+    width: fit-content;
+    padding: 0 9px
+}
+
+.boxPlayMB5 {
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 1px;
+    margin: 1px;
+    z-index: 999999;
+}
+
+.btn-info {
+    background: #003a7f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: #003a7f;
+}
+
+#boxControl {
+    position: fixed;
+    z-index: 999999;
+    bottom: 1%;
+    left: 20%;
+    right: 20%;
+}
+
+.boxPlayMB5.xepBaiDoiThu {
+    top: 0;
+    left: 100px;
+    position: fixed;
+}
+#btnSapBai2{
+    background: brown;
+}
+.textBinh0, .textbinh1, .textBinh2 {
+    position: absolute;
+    color: yellow;
+    background: #684646;
+    width: 80px;
+    text-align: right;
+    padding: 2px;
+    left: -85px;
+    z-index: 10004;
+    font-weight: 700;
+}
+.autoPlay-info {
+    background: green;
+    width: 70px;
+    float: left;
+    display: inline;
+}
+label.textBinh0 {
+    top: 15px;
+}
+label.textBinh1 {
+    top: 55px;
+}
+
+label.textBinh2 {
+    top: 95px;
+}
+
+.input-text {
+    width: auto;
+    max-width: 85px;
+}
+
+/* Add spin of input type number */
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:textfield;margin: 0;}

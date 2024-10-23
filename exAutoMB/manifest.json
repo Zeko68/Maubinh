@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Mậu Binh",
+    "version": "2.0.2",
+	"permissions": [
+    "clipboardRead",
+	"storage"
+	],
+    "description": "MauBinh Assitant",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "img/icon.png"
+    },
+    "optional_permissions": ["activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["ctx.js"],
+        "all_frames": true
+    }],
+    "web_accessible_resources": [{
+        "resources": ["codeweb.js", "injectweb.js"],
+        "matches": ["<all_urls>"]
+    }],
+    "icons": {
+        "32": "img/icon.png",
+        "64": "img/icon.png",
+        "128": "img/icon.png"
+    }
+}
